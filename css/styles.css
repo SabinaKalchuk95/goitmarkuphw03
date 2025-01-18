@@ -59,12 +59,13 @@ img {
 .ul-contacts-menu {
   display: flex;
   align-items: center;
+  padding: 24px 0 24px;
 
   gap: 40px;
 }
-.menu-cont {
+/*.menu-cont {
   padding: 24px 0 24px;
-}
+}*/
 
 .logo-head {
   padding: 24px 0;
