@@ -62,6 +62,9 @@ img {
 
   gap: 40px;
 }
+.menu-cont {
+  padding: 24px 0 24px;
+}
 
 .logo-head {
   padding: 24px 0;
