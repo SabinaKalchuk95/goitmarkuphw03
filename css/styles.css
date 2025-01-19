@@ -47,6 +47,9 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.menu-link {
+  padding: 24px 0 24px;
+}
 .nav-menu {
   display: flex;
   align-items: center;
