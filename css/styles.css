@@ -121,18 +121,6 @@ img {
 }
 
 /*section-main*/
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .section-main {
   background: #2e2f42;
@@ -181,7 +169,19 @@ img {
 .button-mh:focus {
   background-color: #404bbf;
 }
-/*section-info*/
+/*1section-info*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .list-info {
   display: flex;
   max-width: 1128px;
@@ -214,7 +214,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*section ourteam*/
+/*2section ourteam*/
 .ot-title {
   margin-bottom: 72px;
 }
@@ -239,7 +239,9 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
-
+.otl {
+  margin-right: 0;
+}
 .ourteam {
   background: #f4f4fd;
 }
@@ -256,14 +258,15 @@ img {
   background-color: #ffffff;
 }
 .ot-name {
+  margin-bottom: 8px;
+}
+.ot-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-
-  margin-bottom: 8px;
 }
 .ot-info {
   font-weight: 400;
@@ -273,7 +276,7 @@ img {
   text-align: center;
   color: #434455;
 }
-/*section portfolio*/
+/*3section portfolio*/
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
