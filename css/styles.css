@@ -230,18 +230,19 @@ img {
 .our-list {
   display: flex;
   align-items: center;
-
-  box-sizing: border-box;
   gap: 24px;
-
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  box-sizing: border-box;
 }
 .ot-team-list {
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
-.otl {
+.ot-team-list:last-child {
   margin-right: 0;
 }
+/*.otl {
+  margin-right: 0;
+}*/
 .ourteam {
   background: #f4f4fd;
 }
