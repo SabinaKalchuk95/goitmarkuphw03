@@ -241,9 +241,7 @@ img {
 .ot-team-list:last-child {
   margin-right: 0;
 }
-/*.otl {
-  margin-right: 0;
-}*/
+
 .ourteam {
   background: #f4f4fd;
 }
@@ -267,6 +265,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .ot-info {
   font-weight: 400;
