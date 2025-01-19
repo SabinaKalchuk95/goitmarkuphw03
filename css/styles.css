@@ -62,13 +62,9 @@ img {
 .ul-contacts-menu {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
 
   gap: 40px;
 }
-/*.menu-cont {
-  padding: 24px 0 24px;
-}*/
 
 .logo-head {
   padding: 24px 0;
@@ -237,9 +233,10 @@ img {
 
   box-sizing: border-box;
   gap: 24px;
+
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .ot-team-list {
-  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 .otl {
